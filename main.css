@@ -6,10 +6,10 @@
 
 body, html {
     /* TODO: Define these colors as you like */
-    background: linear-gradient(to left, #8ebbef, #067eb1); /* Chose 2 different colors to fade into */
+    background: linear-gradient(to left, #F1FAEE, #A8DADC); /* Chose 2 different colors to fade into */
 
     /* TODO: Use either beginning color or ending color (this is for overscrolling) */
-    background-color: #067eb1;
+    background-color: #A8DADC;
 
     /* TODO: Change the font style you use */
     font-family: 'Montserrat', sans-serif;
@@ -75,16 +75,18 @@ body, html {
 }
 /* FIXME: Implementing shadow and parallax effect for landing page image */
 
-/* .background-img {
-    background-image: url(./assets/background-image.jpg);
+/* Adds a background image */
+.background-img {
+    background-image: url(./assets/background.jpg);
 
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.48);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.1);
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+} 
+
 
 /* -------------------------------- Navigation Bar Section -------------------------------- */
 
@@ -115,4 +117,29 @@ nav {
 /* Changes color of button when you hover over it */
 .btn:hover {
     background: rgba(255, 255, 255, 0.275);
+}
+/* -------------------------------- Introduction Section -------------------------------- */
+
+/* This is an "ID" which is used as a bookmark - Here we add padding to the top
+   and make it take up the entire vertical screen with 100vh */
+   #introduction {
+    padding-top: 38vh; 
+    height: 100vh;
+    line-height: 1.2 !important; /* Changes line-height from 1.5 since there was too much space in-between lines */
+}
+
+/* Styles name for landing page */
+.name {
+    font-size: 12vmin; /* Uses vmin to keep consistency */
+    color: #1D3557;
+    padding-bottom: 0%; /* 0% */
+    margin-bottom: auto;
+}
+
+/* Styles text under name on landing page */
+.background-text {
+    font-size: 5.6vmin; /* 50px (4.8vmin orig) */
+    color:#457B9D;
+    padding-bottom: 0%;
+    margin: 0;
 }
