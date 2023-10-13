@@ -31,12 +31,33 @@
 
     <link rel="stylesheet" href="main.css">
 
-    <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark" id="navbar-hide"></nav>
-
 </head>
 
 <body>
     <!-- Most if not all of your content will go here -->
+    <!---------------------------------- Navigation Bar Section ---------------------------------->
+    <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark" id="navbar-hide">
+
+                <!-- Creating a flex box that makes "flex items" -->
+                <div class="navbar-header d-flex col">
+
+                    <!-- Logo now takes you to your name/introduction via bookmark -->
+                    <a class="navbar-brand" href="#introduction">
+                        <!-- TODO: Create and add your logo here! -->
+                        <img src="assets/YOUR_LOGO.png" style= width:45px style= height:30px alt="Logo">
+                    </a>
+        
+                    <!-- ml-auto creates margins on the left and pushes dropdown toggle to the far right -->
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+        
+                        <span class="navbar-toggler-icon"></span>
+        
+                    </button>
+                </div>
+    </nav>
+
     <h1>Hello World!</h1>
     <p>test changes</p>
 </body>
