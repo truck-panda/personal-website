@@ -73,3 +73,46 @@ body, html {
 .bottom-space {
     margin-bottom: 4vmin;
 }
+/* FIXME: Implementing shadow and parallax effect for landing page image */
+
+/* .background-img {
+    background-image: url(./assets/background-image.jpg);
+
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.48);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* -------------------------------- Navigation Bar Section -------------------------------- */
+
+/* Defining the font size for the Navigation Bar Text */
+nav {
+    font-size: 17px;
+}
+
+/* Modifying the size of the button for your "Resume" link */
+.btn-sm {
+    font-size: 17px;
+}
+
+/* Changes the color of your Navigation Bar Text */
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+/* Cool blur effect to your Navigation Bar Background */
+.navbar {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    padding-right: 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Changes color of button when you hover over it */
+.btn:hover {
+    background: rgba(255, 255, 255, 0.275);
+}
