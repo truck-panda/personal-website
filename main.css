@@ -6,10 +6,10 @@
 
 body, html {
     /* TODO: Define these colors as you like */
-    background: linear-gradient(to left, #243B55, #141E30); /* Chose 2 different colors to fade into */
+    background: linear-gradient(to left, #8ebbef, #067eb1); /* Chose 2 different colors to fade into */
 
     /* TODO: Use either beginning color or ending color (this is for overscrolling) */
-    background-color: #141E30;
+    background-color: #067eb1;
 
     /* TODO: Change the font style you use */
     font-family: 'Montserrat', sans-serif;
