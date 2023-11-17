@@ -143,3 +143,84 @@ nav {
     padding-bottom: 0%;
     margin: 0;
 }
+/* -------------------------------- About Me Section -------------------------------- */
+
+/* Makes the "About Me" section take up at minimum the entire height of the screen */
+#about-me {
+    padding: 85px 12vmin 0vmin 12vmin; 
+    min-height: 100vmin;
+}
+
+#about-me p {
+    margin-bottom: 0%;
+}
+
+/* Adds a color and weight to links in "About Me" */
+.aboutMe-link {
+    color: rgb(70, 170, 224);
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+}
+
+/* Part of aboutMe-link, defines transformation type and timing */
+#about-me a {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Gives a "popping" effect when hovering on links in "About Me" description */
+#about-me a:hover {
+    color: rgb(70, 170, 224);
+    text-decoration: none;
+    transform: scale(1.04);
+}
+
+/* Creates round-box with "About Me" description */
+.aboutMe-box {
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    
+    box-shadow: 4px 4px 12px 4px rgba(0,0,0,0.2);
+    transition: 0.4s;
+}
+
+/* Creates light white shadow around box on hover */
+.aboutMe-box:hover {
+    box-shadow: 4px 8px 24px 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Creates space inside of "About Me" box for description */
+.about-spacing {
+    padding: 3.5vmin 3.5vmin 3.5vmin 3.5vmin;
+}
+
+/* Formats text inside round-box */
+.about-text {
+    font-size: 1.1rem; /* 50px */
+    color: var(--text-color);
+    padding-bottom: 0%;
+}
+
+/* Puts a nice shadow around circular headshot */
+.about-circle {
+    height: 24vmax;
+    width: 24vmax;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.25);    
+    box-shadow: 4px 4px 12px 4px rgba(0,0,0,0.2);
+    transition: 0.4s;
+}
+
+/* Adds cool hover effect (creates halo/light shadow) */
+.about-circle:hover {
+    box-shadow: 4px 8px 24px 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Styles/sizes the headshot */
+.about-circle img {
+    height: 24vmax; /* Orig 28vmin */
+    width: auto;
+    border-radius: 50%;
+    margin: auto;
+}
